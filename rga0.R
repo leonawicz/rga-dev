@@ -1,4 +1,5 @@
 library(RGoogleAnalytics)
+load("tokens.RData")
 token.ids <- c(1, 1, 1, 2)
 lapply(tokens, ValidateToken)
 
